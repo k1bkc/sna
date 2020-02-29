@@ -1,0 +1,13 @@
+<plugin>
+<name>[COLOR white][B]AUTHORIZE REAL DEBRID[/COLOR][/B] [COLOR yellow][B](RESOLVE-URL)[/COLOR][/B]</name>
+<link>plugin://script.module.resolveurl/?mode=auth_rd</link>
+<thumbnail></thumbnail>
+<fanart>https://i.imgur.com/QL5Yy8V.jpg</fanart>
+</plugin>
+
+<plugin>
+<name>[COLOR white][B]AUTHORIZE REAL DEBRID[/COLOR][/B] [COLOR yellow][B](URL-RESOLVER)[/COLOR][/B]</name>
+<link>plugin://script.module.urlresolver/?mode=auth_rd</link>
+<thumbnail></thumbnail>
+<fanart>https://i.imgur.com/QL5Yy8V.jpg</fanart>
+</plugin>

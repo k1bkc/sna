@@ -1,0 +1,150 @@
+<item>
+ <title>[B][COLOR red]1080P[/COLOR][/B]</title> 
+ <link>$doregex[makelist]</link>
+ <regex> 
+<name>makelist</name> 
+ <listrepeat><![CDATA[ 
+            <title>[COLOR red]+[/COLOR] [COLOR white][makelist.param1][/COLOR]</title> 
+      <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+            <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+          <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+     ]]></listrepeat>
+ 
+     <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+  
+     <page>http://www.youtube.com/watch?v=8V8sI3N3bDE&amp;list=PLrGwZ5BUq8sS-FLyRoPh37d6EeR-oEvOm</page>
+ 
+      <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>http://imgur.com/1XIkEl0.jpg</thumbnail>
+<fanart>http://imgur.com/1XIkEl0.jpg</fanart>
+ 
+</item>
+ 
+ 
+ 
+<item>
+ <title>[B][COLOR gold]4K[/COLOR][/B]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+<name>makelist</name>
+ <listrepeat><![CDATA[  
+            <title>[COLOR red]+[/COLOR] [COLOR white][makelist.param1][/COLOR]</title>
+      <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>           <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>         <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+     ]]></listrepeat>
+ 
+     <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+     <page>http://www.youtube.com/watch?v=onOEns_MnC4&amp;list=PLrGwZ5BUq8sRfE1-J3AqFHx_Ui-SlF1Tj</page>
+ 
+      <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/k83TGAV.jpg</thumbnail>
+<fanart>https://i.imgur.com/k83TGAV.jpg</fanart>
+</item>
+
+
+<item>
+ <title>[B][COLOR white]Amazing Places[/COLOR][/B]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+<name>makelist</name>
+ <listrepeat><![CDATA[
+            <title>[COLOR red]+[/COLOR] [COLOR white][makelist.param1][/COLOR]</title>
+      <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+            <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+          <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+     ]]></listrepeat>
+ 
+     <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+     <page>http://www.youtube.com/watch?v=Lo_bnnL169c&amp;list=PLwJH-XOKXh0g2FJ-6J5JuAowQd7R9M1lP</page>
+ 
+      <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/k83TGAV.jpg</thumbnail>
+<fanart>https://i.imgur.com/k83TGAV.jpg</fanart>
+</item>
+
+
+
+<item>
+ <title>[B][COLOR white]Ciudades de Europa[/COLOR][/B]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+<name>makelist</name>
+ <listrepeat><![CDATA[
+            <title>[COLOR red]+[/COLOR] [COLOR white][makelist.param1][/COLOR]</title>
+      <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+            <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+          <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+     ]]></listrepeat>
+ 
+     <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+     <page>http://www.youtube.com/watch?v=mEUbtphyJUU&amp;list=PLVYx40OFHhTt4SGycVv642YvxHOyq-2s8</page>
+ 
+      <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/k83TGAV.jpg</thumbnail>
+<fanart>https://i.imgur.com/k83TGAV.jpg</fanart>
+ 
+</item>
+
+
+<item>
+ <title>[B][COLOR white]Naturaleza[/COLOR][/B]</title>
+ <link>$doregex[makelist]</link>
+ <regex>
+<name>makelist</name>
+ <listrepeat><![CDATA[
+            <title>[COLOR red]+[/COLOR] [COLOR white][makelist.param1][/COLOR]</title>
+      <link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+            <thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+          <fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+ 
+     ]]></listrepeat>
+ 
+     <expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+ 
+     <page>http://www.youtube.com/watch?v=RK1K2bCg4J8&amp;list=PL6q9nZDPOFMdx0N3AAbdvbTwYvmc0uraC</page>
+ 
+      <cookieJar></cookieJar>
+ 
+</regex>
+ 
+<thumbnail>https://i.imgur.com/k83TGAV.jpg</thumbnail>
+<fanart>https://i.imgur.com/k83TGAV.jpg</fanart>
+</item>
+
+
+<item>
+<title>[B][COLOR white]Relaxation Channel[/COLOR][/B]</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.youtube/play/?video_id=[makelist.param2]</link>
+<thumbnail>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</thumbnail>
+<fanart>https://i.ytimg.com/vi/[makelist.param2]/hqdefault.jpg</fanart>
+]]></listrepeat>
+<expres>data-video-title="(.*?)".*?\n.*?\n.*?\n.*?\n.*?&lt;a href="\/watch\?v=(.*?)&amp;</expres>
+<jsonrpc>plugin://plugin.video.youtube/channel/UCg72Hd6UZAgPBAUZplnmPMQ/</jsonrpc
+<cookieJar></cookieJar>
+</regex>
+<thumbnail>https://i.imgur.com/k83TGAV.jpg</thumbnail>
+<fanart>https://i.imgur.com/k83TGAV.jpg</fanart>
+</item>
